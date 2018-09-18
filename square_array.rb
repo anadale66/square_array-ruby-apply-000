@@ -1,4 +1,6 @@
 def square_array(array)
-  array.each {|s| s**2}
-  
+ bung = []
+ array.each do |x| bung << x ** 2 
+ end
+ return bung
 end
